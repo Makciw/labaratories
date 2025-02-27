@@ -5,6 +5,7 @@
 using namespace std;
 
 int main() {
+	setlocale(LC_ALL, "rus");
 	double side1, side2, side3, half_meter, s;
 
 	cout << "Введите 3 стороны треугольника: ";
