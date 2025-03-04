@@ -8,7 +8,7 @@ int main() {
 	setlocale(LC_ALL, "rus");
 	double side1, side2, side3, half_meter, s;
 
-	cout << "Ââåäèòå 3 ñòîğîíû òğåóãîëüíèêà: ";
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 3 ÑÑ‚Ğ¾Ñ€Ğ¾Ğ½Ñ‹ Ñ‚Ñ€ĞµÑƒĞ³Ğ¾Ğ»ÑŒĞ½Ğ¸ĞºĞ°: ";
 	cin >> side1 >> side2 >> side3;
 
 	if ((side1 > 0 && side2 > 0 && side3 > 0) && (side1 + side3 > side2) && (side1 + side2 > side3) && (side2 + side3 > side1)) {
@@ -16,11 +16,11 @@ int main() {
 		half_meter = (side1 + side2 + side3) / 2;
 		s = sqrt(half_meter * (half_meter - side1) * (half_meter - side2) * (half_meter - side3));
 
-		cout << "Ïåğèìåòğ: " << side1 + side2 + side3 << "\n";
-		cout << "Ïëîùàäü ïî Ãåğîíó: " << s << "\n";
-		if (int(side1 == side2) + int(side1 == side3) + int(side2 == side3) > 0) cout << "ğàâíîáåäğåííûé" << "\n";
-		else cout << "íåğàâíîáåäğåííûé" << "\n";
+		cout << "ĞŸĞµÑ€Ğ¸Ğ¼ĞµÑ‚Ñ€: " << side1 + side2 + side3 << "\n";
+		cout << "ĞŸĞ»Ğ¾Ñ‰Ğ°Ğ´ÑŒ Ğ¿Ğ¾ Ğ“ĞµÑ€Ğ¾Ğ½Ñƒ: " << s << "\n";
+		if (int(side1 == side2) + int(side1 == side3) + int(side2 == side3) > 0) cout << "Ğ Ğ°Ğ²Ğ½Ğ¾Ğ±ĞµĞ´Ñ€ĞµĞ½Ğ½Ñ‹Ğ¹" << "\n";
+		else cout << "ĞĞµÑ€Ğ°Ğ²Ğ½Ğ¾Ğ±ĞµĞ´Ñ€ĞµĞ½Ğ½Ñ‹Ğ¹" << "\n";
 	}
-	else cout << "Òàêèå ñòîğîíû íå ïğèíàäëåæàò òğåóãîëüíèêó" << "\n";
+	else cout << "Ğ¢Ğ°ĞºĞ¸Ğµ ÑÑ‚Ğ¾Ñ€Ğ¾Ğ½Ñ‹ Ğ½Ğµ Ğ¿Ñ€Ğ¸Ğ½Ğ°Ğ´Ğ»ĞµĞ¶Ğ°Ñ‚ Ñ‚Ñ€ĞµÑƒĞ³Ğ¾Ğ»ÑŒĞ½Ğ¸ĞºÑƒ" << "\n";
 	return 1;
 }
