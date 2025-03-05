@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <locale>
 #include <math.h>
-
+//comment
 using namespace std;
 
 int main()
