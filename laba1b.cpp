@@ -21,6 +21,7 @@ int main() {
 		if (int(side1 == side2) + int(side1 == side3) + int(side2 == side3) > 0) cout << "равнобедренный" << "\n";
 		else cout << "неравнобедренный" << "\n";
 	}
+    cout << "Hello";
 	else cout << "Такие стороны не принадлежат треугольнику" << "\n";
 	return 1;
 }
